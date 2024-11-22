@@ -1,6 +1,7 @@
 #include <IRremote.h>
 
 // 定义红外接收引脚 gpt生成的，我已在Arduion上传测试成功，可以读取到
+//使用Arduion的般般是2.0.3  。IRremote 库的版本是4.4.1
 const int IR_RECEIVE_PIN = 22;  // 将红外接收器连接到 GPIO 15
 
 void setup() {
